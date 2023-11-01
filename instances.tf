@@ -7,7 +7,7 @@ resource "aws_instance" "web-red" {
   user_data = filebase64("./ec2_red.sh")
 
   tags = {
-    "Name" = "EC2-Instance-Blue"
+    "Name" = "EC2-Instance-Red"
   }
 }
 
